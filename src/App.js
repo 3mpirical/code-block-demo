@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { CodeBlock, highlightCode } from "./CodeBlock";
 import "./atom-one-dark.css";
+// styles for specific themes must be imported from a css file
+// (It should be possible to specify the import dynamically if we want more than one theme)
+
 
 class App extends Component {
   state = {code: ""}
